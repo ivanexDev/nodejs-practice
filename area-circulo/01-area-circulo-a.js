@@ -1,3 +1,3 @@
-const { calcularArea } = require("./01-area-circulo-b")
+const { calcularArea } = require("./01-area-circulo-b");
 
-console.log(calcularArea( 3 ))
+console.log(calcularArea(3));

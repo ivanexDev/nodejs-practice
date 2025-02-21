@@ -1,8 +1,6 @@
-
-const fs = require('fs')
+const fs = require("fs");
 
 // fs.open(__dirname + "/archivo-nuevo.txt", "w", (err, fd)=>{
-
 
 //     fs.write(fd,"hola a todos", (err, bufferInBytes)=>{
 
@@ -15,8 +13,6 @@ const fs = require('fs')
 //     })
 // })
 
-
-fs.writeFileSync(__dirname + "/archivo.txt", "Texto dentro del archivo")
+fs.writeFileSync(__dirname + "/archivo.txt", "Texto dentro del archivo");
 
 //obetener el nombre de los archivos dentro de una carpeta
-
